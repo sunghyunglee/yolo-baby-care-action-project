@@ -36,7 +36,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day02"
+            / "02_keypoint_quality"
             / "images"
             / "front.jpg"
         ),
@@ -130,7 +130,7 @@ def main() -> None:
     output_image = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "images"
         / f"{source.stem}_pose.jpg"
     )
@@ -156,7 +156,7 @@ def main() -> None:
     output_csv = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "tables"
         / f"{source.stem}_keypoints.csv"
     )

@@ -34,14 +34,14 @@ ROOT = Path(__file__).resolve().parents[1]
 VIDEO_DIR = (
     ROOT
     / "data"
-    / "day04"
+    / "04_sequence"
     / "videos"
 )
 
 OUTPUT_PATH = (
     ROOT
     / "reports"
-    / "day04"
+    / "04_sequence"
     / "tables"
     / "video_metadata.csv"
 )
@@ -365,7 +365,7 @@ def main() -> None:
     # Excel에서도 한글을 읽기 쉽게 저장합니다.
     #
     # 저장 위치:
-    # reports/day04/tables/video_metadata.csv
+    # reports/04_sequence/tables/video_metadata.csv
 
     OUTPUT_PATH.parent.mkdir(
         parents=True,

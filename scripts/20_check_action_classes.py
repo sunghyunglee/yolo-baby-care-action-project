@@ -37,7 +37,7 @@ ACTION_FILE = (
 VIDEO_DIR = (
     ROOT
     / "data"
-    / "day04"
+    / "04_sequence"
     / "videos"
 )
 

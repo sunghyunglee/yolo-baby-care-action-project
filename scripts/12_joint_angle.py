@@ -83,7 +83,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day03"
+            / "03_frame_feature"
             / "images"
             / "arms_up_person_a.jpg"
         ),

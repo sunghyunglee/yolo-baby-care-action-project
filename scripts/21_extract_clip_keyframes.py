@@ -45,14 +45,14 @@ DEFAULT_ACTION_FILE = (
 DEFAULT_VIDEO_DIR = (
     ROOT
     / "data"
-    / "day04"
+    / "04_sequence"
     / "videos"
 )
 
 DEFAULT_OUTPUT_DIR = (
     ROOT
     / "reports"
-    / "day04"
+    / "04_sequence"
     / "keyframes"
 )
 
@@ -500,7 +500,7 @@ def main() -> None:
     # 결과 이미지가 저장된 폴더를 출력합니다.
     #
     # 기본 저장 위치:
-    # reports/day04/keyframes/
+    # reports/04_sequence/keyframes/
     #
     # 이 폴더에서 각 Action의
     # Start / Middle / End 이미지를 비교합니다.

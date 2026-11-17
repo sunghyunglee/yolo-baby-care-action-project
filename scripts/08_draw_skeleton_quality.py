@@ -33,7 +33,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day02"
+            / "02_keypoint_quality"
             / "images"
             / "front.jpg"
         ),
@@ -206,7 +206,7 @@ def main() -> None:
     output_path = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "images"
         / (
             f"{source.stem}_"

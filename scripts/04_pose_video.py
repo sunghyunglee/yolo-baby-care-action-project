@@ -91,7 +91,7 @@ def main() -> None:
     output_path = (
         ROOT
         / "reports"
-        / "day01"
+        / "01_pose"
         / "pose_demo_output.mp4"
     )
 

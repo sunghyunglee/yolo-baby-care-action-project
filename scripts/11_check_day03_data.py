@@ -22,7 +22,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 
-IMAGE_DIR = ROOT / "data" / "day03" / "images"
+IMAGE_DIR = ROOT / "data" / "03_frame_feature" / "images"
 
 
 # ==================================================

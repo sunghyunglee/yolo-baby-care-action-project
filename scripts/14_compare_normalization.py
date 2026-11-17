@@ -81,7 +81,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day03"
+            / "03_frame_feature"
             / "images"
             / "arms_up_near.jpg"
         ),
@@ -93,7 +93,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day03"
+            / "03_frame_feature"
             / "images"
             / "arms_up_far.jpg"
         ),
@@ -104,7 +104,7 @@ def parse_args():
         "--output",
         default="normalization_comparison.csv",
         help=(
-            "reports/day03/tables 아래에 "
+            "reports/03_frame_feature/tables 아래에 "
             "저장할 CSV 파일명"
         ),
     )
@@ -453,7 +453,7 @@ def main() -> None:
     # ==============================================
     # [18] CSV 저장 경로 생성
     # ==============================================
-    # reports/day03/tables 폴더 아래에
+    # reports/03_frame_feature/tables 폴더 아래에
     # 비교 결과 CSV를 저장합니다.
     #
     # 기본 파일명:
@@ -462,7 +462,7 @@ def main() -> None:
     output_path = (
         ROOT
         / "reports"
-        / "day03"
+        / "03_frame_feature"
         / "tables"
         / args.output
     )

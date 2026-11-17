@@ -52,14 +52,14 @@ from src.pose_utils import (
 DEFAULT_SEQUENCE_DIR = (
     ROOT
     / "reports"
-    / "day04"
+    / "04_sequence"
     / "sequences"
 )
 
 DEFAULT_OUTPUT_PATH = (
     ROOT
     / "reports"
-    / "day04"
+    / "04_sequence"
     / "tables"
     / "sequence_summary.csv"
 )

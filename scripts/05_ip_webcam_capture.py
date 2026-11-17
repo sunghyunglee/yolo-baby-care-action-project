@@ -9,7 +9,7 @@ import cv2
 # ② 프로젝트 경로 및 이미지 저장 위치 설정
 ROOT = Path(__file__).resolve().parents[1]
 
-SAVE_DIR = ROOT / "data" / "day01" / "ip_webcam"
+SAVE_DIR = ROOT / "data" / "01_pose" / "ip_webcam"
 
 
 # ③ 터미널에서 IP Webcam 주소와 실행 옵션 입력받기

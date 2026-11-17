@@ -84,7 +84,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day03"
+            / "03_frame_feature"
             / "images"
             / "arms_up_person_a.jpg"
         ),
@@ -301,7 +301,7 @@ def main() -> None:
     # ==============================================
     # [15] CSV 저장 경로 생성
     # ==============================================
-    # reports/day03/tables 폴더에
+    # reports/03_frame_feature/tables 폴더에
     # 정규화 결과를 저장합니다.
     #
     # 출력 파일 예시:
@@ -312,7 +312,7 @@ def main() -> None:
     output_path = (
         ROOT
         / "reports"
-        / "day03"
+        / "03_frame_feature"
         / "tables"
         / (
             f"{source.stem}"

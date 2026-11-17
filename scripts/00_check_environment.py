@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from src.common import (
-    ensure_day01_dirs,
+    ensure_01_pose_dirs,
     load_config,
     resolve_device,
 )
@@ -25,7 +25,7 @@ from src.common import (
 def main() -> None:
 
     # ③ 필요한 폴더 생성 및 프로젝트 설정 읽기
-    ensure_day01_dirs()
+    ensure_01_pose_dirs()
 
     config = load_config()
     device = resolve_device(config["device"])
@@ -65,7 +65,7 @@ def main() -> None:
     report_path = (
         ROOT
         / "reports"
-        / "day01"
+        / "01_pose"
         / "environment.txt"
     )
 

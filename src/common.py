@@ -35,15 +35,15 @@ def resolve_device(requested: str):
 
 
 # ⑤ 1일차에 필요한 폴더 생성
-def ensure_day01_dirs() -> None:
+def ensure_01_pose_dirs() -> None:
     """필요한 폴더가 없으면 생성합니다."""
 
     # 생성할 폴더 목록
     directories = [
-        PROJECT_ROOT / "data" / "day01" / "coco8_pose",
-        PROJECT_ROOT / "data" / "day01" / "video",
-        PROJECT_ROOT / "data" / "day01" / "ip_webcam",
-        PROJECT_ROOT / "reports" / "day01",
+        PROJECT_ROOT / "data" / "01_pose" / "coco8_pose",
+        PROJECT_ROOT / "data" / "01_pose" / "video",
+        PROJECT_ROOT / "data" / "01_pose" / "ip_webcam",
+        PROJECT_ROOT / "reports" / "01_pose",
         PROJECT_ROOT / "artifacts",
     ]
 

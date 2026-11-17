@@ -44,7 +44,7 @@ def parse_args():
         "--source",
         required=True,
         help=(
-            "예: reports/day04/"
+            "예: reports/04_sequence/"
             "sequences/wave_sequence.csv"
         ),
     )

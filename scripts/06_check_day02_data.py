@@ -7,7 +7,7 @@ import cv2
 
 # ② 프로젝트 경로 및 2일차 이미지 폴더 지정
 ROOT = Path(__file__).resolve().parents[1]
-IMAGE_DIR = ROOT / "data" / "day02" / "images"
+IMAGE_DIR = ROOT / "data" / "02_keypoint_quality" / "images"
 
 
 # ③ 2일차 실습에 필요한 이미지 6장 지정

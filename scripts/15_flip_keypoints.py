@@ -85,7 +85,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day03"
+            / "03_frame_feature"
             / "images"
             / "left_arm_up.jpg"
         ),
@@ -97,7 +97,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day03"
+            / "03_frame_feature"
             / "images"
             / "right_arm_up.jpg"
         ),
@@ -393,7 +393,7 @@ def main() -> None:
     # ==============================================
     # 비교 결과를 다음 경로에 저장합니다.
     #
-    # reports/day03/tables/
+    # reports/03_frame_feature/tables/
     # left_right_flip_comparison.csv
     #
     # 저장 폴더가 없다면 자동 생성합니다.
@@ -401,7 +401,7 @@ def main() -> None:
     output_path = (
         ROOT
         / "reports"
-        / "day03"
+        / "03_frame_feature"
         / "tables"
         / "left_right_flip_comparison.csv"
     )

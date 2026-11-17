@@ -106,7 +106,7 @@ def main() -> None:
     output_path = (
         ROOT
         / "reports"
-        / "day01"
+        / "01_pose"
         / f"pose_{source.stem}.jpg"
     )
 
@@ -195,7 +195,7 @@ def main() -> None:
     report_path = (
         ROOT
         / "reports"
-        / "day01"
+        / "01_pose"
         / f"pose_{source.stem}.txt"
     )
 

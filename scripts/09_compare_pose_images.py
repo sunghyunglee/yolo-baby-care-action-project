@@ -50,7 +50,7 @@ def main() -> None:
     image_dir = (
         ROOT
         / "data"
-        / "day02"
+        / "02_keypoint_quality"
         / "images"
     )
 
@@ -58,7 +58,7 @@ def main() -> None:
     output_dir = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "images"
         / "comparison"
     )
@@ -72,7 +72,7 @@ def main() -> None:
     table_path = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "tables"
         / "image_quality_summary.csv"
     )

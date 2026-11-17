@@ -35,7 +35,7 @@ def parse_args():
         default=str(
             ROOT
             / "data"
-            / "day02"
+            / "02_keypoint_quality"
             / "videos"
             / "pose_quality_demo.mp4"
         ),
@@ -111,7 +111,7 @@ def main() -> None:
     output_video = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "videos"
         / f"{source.stem}_pose.mp4"
     )
@@ -141,7 +141,7 @@ def main() -> None:
     frame_table = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "tables"
         / f"{source.stem}_frame_quality.csv"
     )
@@ -150,7 +150,7 @@ def main() -> None:
     keypoint_table = (
         ROOT
         / "reports"
-        / "day02"
+        / "02_keypoint_quality"
         / "tables"
         / f"{source.stem}_keypoints.csv"
     )

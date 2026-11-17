@@ -50,8 +50,8 @@ from src.pose_utils import (
 # ③ Action 설정·동영상·결과 폴더 지정
 # ==================================================
 # Action 목록: configs/action_classes.csv
-# 동영상 입력: data/day04/videos/
-# Sequence CSV 저장: reports/day04/sequences/
+# 동영상 입력: data/04_sequence/videos/
+# Sequence CSV 저장: reports/04_sequence/sequences/
 DEFAULT_ACTION_FILE = (
     ROOT
     / "configs"
@@ -61,14 +61,14 @@ DEFAULT_ACTION_FILE = (
 DEFAULT_VIDEO_DIR = (
     ROOT
     / "data"
-    / "day04"
+    / "04_sequence"
     / "videos"
 )
 
 DEFAULT_OUTPUT_DIR = (
     ROOT
     / "reports"
-    / "day04"
+    / "04_sequence"
     / "sequences"
 )
 
