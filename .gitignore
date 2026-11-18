@@ -14,3 +14,4 @@ artifacts/
 *:Zone.Identifier
 !docs/images/*.png
 !docs/images/*.png
+!configs/*.csv
